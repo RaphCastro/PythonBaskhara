@@ -1,8 +1,6 @@
 from math import ceil
-
-
 while True:
-    f = str(input('Digite a função desejada: ')).strip().upper()
+    f = str(input('Digite a função desejada: (Custo, Receita, Lucro): ')).strip().upper()
     if f in 'CUSTO':
         cf = float(input('Digite o custo fixo: '))
         cv = float(input('Ditie o custo váriavel: '))
@@ -23,9 +21,9 @@ while True:
     else:
         print('Comando Inválido')
         continue
-    con = str(input('Deseja continuar? [S/N]')).upper()
+    con = str(input('Deseja continuar? [S/N]: ')).upper()
     if con in 'S':
         continue
     else:
-        print('Programa encerrado.')
+        print('Programa encerrado. Obrigado!')
         break
