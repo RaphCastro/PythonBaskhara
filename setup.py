@@ -12,7 +12,7 @@ executables = [
 
 buildOptions = dict(
         packages = [],
-        includes = ["math"],
+        includes = [],
         include_files = [],
         excludes = []
 )
